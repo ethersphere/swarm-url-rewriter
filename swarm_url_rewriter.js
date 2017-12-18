@@ -2,8 +2,8 @@
  * Swarm url rewriter script
  *
  * Ethereum Swarm uses bzz:// urls, but browsers don't understand the bzz
- * protocol. You can rewrite bzz:// urls to http://swarm-gateways.net/bzz:/
- * urls, and the page will be served by the public swarm gateway.
+ * protocol. With this bzz:// urls are automatically rewritten to
+ * http://swarm-gateways.net/bzz:/ urls after the user clicks on them.
  */
 
 var GATEWAY_URL = "http://swarm-gateways.net/";
